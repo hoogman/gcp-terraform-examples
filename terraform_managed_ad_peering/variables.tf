@@ -73,7 +73,7 @@ variable "ad_peering_name_b" {
   description = "Name for managed AD Peering. Default = my-peering-b"
   default     = "my-peering-b"
 }
-
+/*
 variable "ad_trust_secret" {
   type        = string
   description = "Active Directory trust secret"
@@ -84,3 +84,4 @@ variable "ad_trust_type" {
   description = "Active Directory Trust Type. Options 'FOREST' or 'EXTERNAL'. Default = 'FOREST'"
   default     = "FOREST"
 }
+*/
