@@ -50,7 +50,10 @@ terraform plan
 ~~~~
 
 6. Deploy configuration.
+
    ##### Notice - When running the below command you will be prompted to enter the GCP Project IDs that you will be using to deploy resources. If you with to only use a single project then enter the same project ID twice.
+
+   ##### *Managed AD Service deployment can take 30-45 min to complete.*
 
 ~~~~
 terraform apply
